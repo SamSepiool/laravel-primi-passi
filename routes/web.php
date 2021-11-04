@@ -27,10 +27,8 @@ Route::get('/', function () {
            [
             "linkName"=>'GitHub' ,
             "url"=>'https://github.com/SamSepiool',
-           ],
-           
+           ],  
         ]
-
     ];
 
 

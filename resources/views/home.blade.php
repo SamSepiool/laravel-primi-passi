@@ -47,17 +47,15 @@
     <body>
 
         <div class="stolen_box">
-            
-               
             <div class="content">
                 <div class="title">Hello World</div>
                 <h3>My name is {{$name}} {{$surname}}</h3>
                 <div class="links">
-                    
+
                     @foreach ($links as $link)
                     <a href="{{$link['url']}}">{{$link['linkName']}}</a>
                     @endforeach
-                 
+                    
                 </div>
             </div>
         </div>
